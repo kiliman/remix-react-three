@@ -1,0 +1,21 @@
+diff --git a/node_modules/@react-three/fiber/dist/react-three-fiber.esm.js b/node_modules/@react-three/fiber/dist/react-three-fiber.esm.js
+index 6032efd..d7911e7 100644
+--- a/node_modules/@react-three/fiber/dist/react-three-fiber.esm.js
++++ b/node_modules/@react-three/fiber/dist/react-three-fiber.esm.js
+@@ -1,11 +1,10 @@
+-import * as THREE from 'three';
+-import * as React from 'react';
+-import create from 'zustand';
+-import Reconciler from 'react-reconciler';
+-import { unstable_now, unstable_runWithPriority, unstable_IdlePriority } from 'scheduler';
+-import { useAsset } from 'use-asset';
+ import mergeRefs from 'react-merge-refs';
++import Reconciler from 'react-reconciler';
+ import useMeasure from 'react-use-measure';
++import { unstable_IdlePriority, unstable_now, unstable_runWithPriority } from 'scheduler';
++import * as THREE from 'three';
++import { useAsset } from 'use-asset';
++import create from 'zustand';
+ 
+ var threeTypes = /*#__PURE__*/Object.freeze({
+   __proto__: null

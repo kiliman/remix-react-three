@@ -1,0 +1,32 @@
+diff --git a/node_modules/@react-three/drei/core/OrbitControls.js b/node_modules/@react-three/drei/core/OrbitControls.js
+index 8629aaf..b4b57ca 100644
+--- a/node_modules/@react-three/drei/core/OrbitControls.js
++++ b/node_modules/@react-three/drei/core/OrbitControls.js
+@@ -1,6 +1,5 @@
+ import _extends from '@babel/runtime/helpers/esm/extends';
+-import { useThree, useFrame } from '@react-three/fiber';
+-import * as React from 'react';
++import { useFrame, useThree } from '@react-three/fiber';
+ import { OrbitControls as OrbitControls$1 } from 'three-stdlib';
+ 
+ const OrbitControls = /*#__PURE__*/React.forwardRef(({
+diff --git a/node_modules/@react-three/drei/core/PerspectiveCamera.js b/node_modules/@react-three/drei/core/PerspectiveCamera.js
+index 2783c8c..625e05b 100644
+--- a/node_modules/@react-three/drei/core/PerspectiveCamera.js
++++ b/node_modules/@react-three/drei/core/PerspectiveCamera.js
+@@ -1,5 +1,4 @@
+ import _extends from '@babel/runtime/helpers/esm/extends';
+-import * as React from 'react';
+ import { useThree } from '@react-three/fiber';
+ import mergeRefs from 'react-merge-refs';
+ 
+diff --git a/node_modules/@react-three/drei/core/shapes.js b/node_modules/@react-three/drei/core/shapes.js
+index 3718189..a759284 100644
+--- a/node_modules/@react-three/drei/core/shapes.js
++++ b/node_modules/@react-three/drei/core/shapes.js
+@@ -1,5 +1,4 @@
+ import _extends from '@babel/runtime/helpers/esm/extends';
+-import * as React from 'react';
+ 
+ function create(type) {
+   const El = type + 'BufferGeometry';
